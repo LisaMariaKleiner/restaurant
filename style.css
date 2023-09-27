@@ -1,0 +1,735 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* ========================== Header Container ========================= */
+.header_container {
+    height: 100vh; 
+    position: relative;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("Icons_und_material/Hero/JPG_Hintergrund/Hero.jpg"); 
+    background-size: cover;
+    background-position: bottom;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: -20%;
+}
+
+.header_container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.header_container > img {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    width: 64px;
+    height: 64px;
+}
+
+
+
+.menu {
+    position: absolute;
+    height: 112px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 0;
+    margin-right: 250px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.menu a {
+   color: white;
+   text-decoration: none;
+   font-family: 'Raleway'sans-serif;
+   font-weight: 24px;
+   list-style: none;
+   margin-left: 32px;
+}
+
+.menu a:hover {
+    color: #9F0908;
+}
+
+.icon_phone {
+    width: 20px;
+    height: 20px;
+}
+
+.telefon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 10px;
+    background-color: #9F0908;
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid white;
+}
+
+.telefon:hover {
+    background-color: grey;
+}
+
+/* =================== How To Order ===================== */
+
+.HowToOrder_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HowToOrder_container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 120px 0 0 0;
+    color: #9F0908;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.HowToOrder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    color: black;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    margin-left: 80px;
+}
+
+
+.img_container > img {
+    width: 128px;
+    height: auto;
+}
+
+.img_container > span {
+    margin-top: 16px;
+}
+/* =============================  Our Menu ============================= */
+
+
+.our_menu_container {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Icons_und_material/Our_menu_section/JPG_hintergrund/1.\ Desktop@3x.jpg);
+    background-size: cover;
+}
+/* ==================== Menu Listen ======================== */
+.menu1_h2 {
+    display: flex;
+    justify-content: center;
+    color: #9F0908;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+/* ========= Menu 1 ========= */
+.menu1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 56px;
+    }
+
+.menu1_img {
+    display: flex;
+    width: 352px;
+    height: 352px;;
+}
+
+/* ========= Menu 2 ========== */
+.menu2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 56px;
+    }
+
+.menu2_img {
+    display: flex;
+    width: 352px;
+    height: 352px;;
+}
+
+/* ========= Menu 3 ========== */
+.menu3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 120px;
+    }
+
+.menu3_img {
+    display: flex;
+    width: 352px;
+    height: 352px;;
+}
+
+th {
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    padding-bottom: 16px;
+}
+
+td {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #675E54;
+    padding-bottom: 8px;
+}
+
+/* ==================================== Find Us ========================================= */
+
+.find_us_container {
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+
+.find_us_h2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.find_us_h2 > h2 {
+    color: #9F0908;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.find_us_container > span > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+}
+
+.find_us_container > span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:first center;
+    padding-bottom: 64px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.googlemaps {
+    height: 350px;
+    width: 100%;
+}
+
+/* ========================= FOOTER ============================ */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 144px;
+    width: 100%;
+    background-color: black;
+}
+
+.firma {
+    height: 44px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 144px;
+}
+
+.socialmedia > img {
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.socialmedia > img:hover {
+    filter: drop-shadow(0px 0px 4px #FFFFFF);
+    cursor: pointer;
+}
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    padding-right: 144px;
+    border: 0;
+}
+
+#logo_mobilephone {
+    display: none;
+}
+
+
+/* ========================= Media Queries Tablet IPad Mini ====================== */
+
+@media(max-width: 768px){
+    .hide-mobile{
+        display: none;
+    }
+
+    .our_menu_container {
+        flex: 1;
+    }
+
+    .telefon { 
+        width: 250px;
+        height: 25px;
+        font-size: 25px;
+        background-color: #9F0908;
+        border-radius: 10px;
+        padding: 2%;
+        border: 2px solid white;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+/* ===================== Order responsive ===================== */
+
+    .HowToOrder_container h2 {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin: 96px 0px 0px;
+        color: rgb(159, 9, 8);
+        font-family: 'Raleway', sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+    }
+
+    .img_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 48px;
+        color: black;
+        font-family: 'Economica', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin-left: 80px;
+    }
+
+    .img_container span {
+        text-align: center;
+        flex: 1;
+        margin-top: 8px;
+    }
+/* ========================== Menu responsive ========================== */
+
+    .our_menu_container {
+        background-image: url(./Icons_und_material/Our_menu_section/JPG_hintergrund/1.\ Tablet@3x.jpg);
+    }
+    .menu1_h2 {
+        font-size: 64px; 
+    }
+
+    .menu1_img {
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        width: 30%;
+    }
+
+    .menu2_img {
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        width: 30%;
+    }
+
+    .menu3_img {
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        width: 30%;
+    }
+
+    .menu1 .menu2 .menu3{
+        flex: 1;
+    }
+
+    th {
+        font-size: 32px;
+    }
+    
+    td {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+/* ================== Footer responsive ================== */
+    .find_us_container > span {
+        font-size: 20px;
+        padding-bottom: 48px;
+    }
+    .find_us_h2 > h2 {
+        margin-top: 96px;
+    }
+
+    .socialmedia {
+        padding-right: 40px;
+    }
+
+    .firma {
+        padding-left: 40px;
+        
+    }  
+}
+
+
+/* ========================= Media Queries  IPhone 8 ====================== */
+
+/* ==================== Header ==================== */
+@media(max-width: 375px) {
+    .hide-mobile{
+        display: none;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
+    .header_container > img {
+        left: 30px;
+    }
+
+    .header_container > span {
+        font-size: 16px;
+    }
+
+    .telefon { 
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+        background-color: #9F0908;
+        border-radius: 10px;
+        padding: 2%;
+        border: 2px solid white;
+    }
+    #navbar {
+        display: flex;
+        justify-content: end;
+        flex: 1;
+        margin: 0 30px 0 0;
+    }
+
+/* ==================== HowToOrder ==================== */
+    .HowToOrder {
+        flex-direction: column;
+    }
+
+    .HowToOrder_container > h2 {
+        font-size: 40px;
+        margin: 72px 0 32px 0;
+    }
+
+    .img_container {
+        flex-direction: column;
+        margin-top: 48px;
+        font-size: 32px;
+        margin: 32px 0 0 0;
+    }
+
+/* ==================== OurMenu ==================== */
+    .our_menu_container {
+        background-image: url(./Icons_und_material/Our_menu_section/JPG_hintergrund/2.\ Mobile@3x.jpg);
+    }
+
+    .menu1_h2 {
+        font-size: 40px; 
+    }
+
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+   .menu1_img > img {
+    object-fit: contain;
+    width: 352px;
+    height: 352px;
+   }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .menu2_img > img {
+        object-fit: contain;
+        width: 352px;
+        height: 352px;
+       }
+
+    .menu3 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .menu3_img > img {
+        object-fit: contain;
+        width: 352px;
+        height: 352px;
+       }
+
+    /* ==================== FindUs ==================== */
+
+    .find_us_h2 > h2 {
+        font-size: 40px;
+        margin-top: 72px;
+    }
+    .find_us_container > span {
+        font-size: 16px;
+    }
+
+    /* ==================== Footer ==================== */
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        height: 86px;
+        width: 100%;
+    }
+
+    .firma {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    #logo_desktop {
+        display: none;
+    }
+
+    #logo_mobilephone {
+        display: flex;
+        height: 40px;
+    }
+
+}
+
+
+@media(max-width: 1050px) {
+    /* ==================== Header ==================== */
+    .hide-mobile{
+        display: none;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
+    .header_container > img {
+        left: 30px;
+    }
+
+    .header_container > span {
+        font-size: 16px;
+    }
+
+    .telefon { 
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+        background-color: #9F0908;
+        border-radius: 10px;
+        padding: 2%;
+        border: 2px solid white;
+    }
+    #navbar {
+        display: flex;
+        justify-content: end;
+        flex: 1;
+        margin: 0 30px 0 0;
+    }
+
+/* ==================== HowToOrder ==================== */
+    .HowToOrder {
+        flex-direction: column;
+    }
+
+    .HowToOrder_container > h2 {
+        font-size: 40px;
+        margin: 72px 0 32px 0;
+    }
+
+    .img_container {
+        flex-direction: column;
+        margin-top: 48px;
+        font-size: 32px;
+        margin: 32px 0 0 0;
+    }
+
+/* ==================== OurMenu ==================== */
+    .our_menu_container {
+        background-image: url(./Icons_und_material/Our_menu_section/JPG_hintergrund/2.\ Mobile@3x.jpg);
+    }
+
+    .menu1_h2 {
+        font-size: 40px; 
+    }
+
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+   .menu1_img > img {
+    object-fit: contain;
+    width: 352px;
+    height: 352px;
+   }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .menu2_img > img {
+        object-fit: contain;
+        width: 352px;
+        height: 352px;
+       }
+
+    .menu3 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .menu3_img > img {
+        object-fit: contain;
+        width: 352px;
+        height: 352px;
+       }
+
+    /* ==================== FindUs ==================== */
+
+    .find_us_h2 > h2 {
+        font-size: 40px;
+        margin-top: 72px;
+    }
+    .find_us_container > span {
+        font-size: 16px;
+    }
+
+    /* ==================== Footer ==================== */
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        height: 86px;
+        width: 100%;
+    }
+
+    .firma {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    #logo_desktop {
+        display: none;
+    }
+
+    #logo_mobilephone {
+        display: flex;
+        height: 40px;
+    }
+}
